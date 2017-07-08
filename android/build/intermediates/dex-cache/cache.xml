@@ -3,30 +3,39 @@
 
     <item
         is-multidex="false"
-        jar="/Users/satanworker/Projects/rn/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/1.0.1/jars/classes.jar"
+        jar="/Users/satanworker/Projects/rn-starter/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="050f688115ea65a0292d8483a6ffe6bcdab1e2ef">
-        <dex dex="/Users/satanworker/Projects/rn/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-base-1.0.1_9c81964fb7ed596caa2feeff13e32bb830f9c5f2.jar" />
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="/Users/satanworker/Projects/rn-starter/android/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1_4c61be79d01ed2c4d21baa711692f894effb1b77.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/satanworker/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar"
+        jar="/Users/satanworker/Projects/rn-starter/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="6975da39a7040257bd51d21a231b76c915872d38">
-        <dex dex="/Users/satanworker/Projects/rn/android/app/build/intermediates/pre-dexed/debug/javax.inject-1_7b65bfc5401e7bce103d5409947d7a8a479fc753.jar" />
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="/Users/satanworker/Projects/rn-starter/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.0.1_8643a4d2ede0c7a26c925d05e48841c95bd54f97.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/satanworker/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.1/support-annotations-23.0.1.jar"
+        jar="/Users/satanworker/Projects/rn-starter/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/1.0.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
-        <dex dex="/Users/satanworker/Projects/rn/android/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.1_f4430fa61b0716c78bd1b9e455bbaaa4eee90ba9.jar" />
+        sha1="d9c4402c3057225d80cbbbec52154e7a25b0ebdf">
+        <dex dex="/Users/satanworker/Projects/rn-starter/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-1.0.1_281015af3660b12293d2d9a9f444db5dfd41445a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/satanworker/Projects/rn-starter/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.46.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c5526d30278eb171f4a1325bd6b927c9057c91f4">
+        <dex dex="/Users/satanworker/Projects/rn-starter/android/app/build/intermediates/pre-dexed/debug/com.facebook.react-react-native-0.46.1_4ec94301bda0c03107acbad1f479d30d2a3b7ff7.jar" />
     </item>
     <item
         is-multidex="false"
@@ -36,33 +45,6 @@
         revision="23.0.1"
         sha1="cf836a435a496eb22ff2aa69aa1e619462549f81">
         <dex dex="/Users/satanworker/Projects/rn/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fresco-1.0.1_79d5ac523284609afeaa5f1c757d0fc25fe053da.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/satanworker/Projects/rn/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
-        <dex dex="/Users/satanworker/Projects/rn/android/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1_6b14dd65c69e47ca14c431e594013a82f70795dd.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/satanworker/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.4.1/c7c4f9e35c2fd5900da24f9872e3971801f08ce0/okhttp-3.4.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="c7c4f9e35c2fd5900da24f9872e3971801f08ce0">
-        <dex dex="/Users/satanworker/Projects/rn/android/app/build/intermediates/pre-dexed/debug/okhttp-3.4.1_8b7dce2a6034189d310c92b881d3701dde44c611.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/satanworker/Projects/rn/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.45.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="0d3e48e200296061415952a358fad487e129adaa">
-        <dex dex="/Users/satanworker/Projects/rn/android/app/build/intermediates/pre-dexed/debug/com.facebook.react-react-native-0.45.1_925a680de29d2dc2f12072dcc28b4a416963431e.jar" />
     </item>
     <item
         is-multidex="false"
@@ -84,30 +66,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/satanworker/Projects/rn/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/1.0.1/jars/classes.jar"
+        jar="/Users/satanworker/Projects/rn-starter/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="5a61f17cd72e20aa4323cbf5f909b7c609619275">
-        <dex dex="/Users/satanworker/Projects/rn/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-drawee-1.0.1_42b99338b3d5f42ef7dad7f9c406842645ba00ee.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/satanworker/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.4.1/63994437f62bc861bc20c605d12962f7246116d1/okhttp-urlconnection-3.4.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="63994437f62bc861bc20c605d12962f7246116d1">
-        <dex dex="/Users/satanworker/Projects/rn/android/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.4.1_8ed6106561cbb085d9db04620b50577bd55acd46.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/satanworker/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
-        <dex dex="/Users/satanworker/Projects/rn/android/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_823a39576af9b6097f11ccee9d6db3ad20bb59a2.jar" />
+        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
+        <dex dex="/Users/satanworker/Projects/rn-starter/android/app/build/intermediates/pre-dexed/debug/com.facebook.soloader-soloader-0.1.0_bba281eaf6fc3bae9fcb3ec260dd7c77e9b891a5.jar" />
     </item>
     <item
         is-multidex="false"
@@ -138,6 +102,15 @@
     </item>
     <item
         is-multidex="false"
+        jar="/Users/satanworker/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.13.0/a9283170b7305c8d92d25aff02a6ab7e45d06cbe/okio-1.13.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
+        <dex dex="/Users/satanworker/Projects/rn-starter/android/app/build/intermediates/pre-dexed/debug/okio-1.13.0_28316612aa2fa14788a8c0baf895fdb5d7bc2e6d.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Users/satanworker/Projects/rn/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
@@ -147,12 +120,30 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/satanworker/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
+        jar="/Users/satanworker/Projects/rn-starter/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/1.0.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
-        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
-        <dex dex="/Users/satanworker/Projects/rn/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0_aa183b351c1b40ba27ecab03b29d163da02dec57.jar" />
+        sha1="050f688115ea65a0292d8483a6ffe6bcdab1e2ef">
+        <dex dex="/Users/satanworker/Projects/rn-starter/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-base-1.0.1_3be9f47d1196192544369efe2c8d0f5608ee7da3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/satanworker/Projects/rn-starter/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="/Users/satanworker/Projects/rn-starter/android/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.0.1_2222bc7c0c9190b92184b2786e4c60355bbcc276.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/satanworker/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.6.0/3f9b16b774f2c36cfd86dd2053d0b3059531dacc/okhttp-urlconnection-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="3f9b16b774f2c36cfd86dd2053d0b3059531dacc">
+        <dex dex="/Users/satanworker/Projects/rn-starter/android/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.6.0_edbf8003c4891bad70b57bd9d448ae88fc4a296e.jar" />
     </item>
     <item
         is-multidex="false"
@@ -174,21 +165,174 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/satanworker/Projects/rn/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.45.1/jars/libs/infer-annotations-4.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
-        <dex dex="/Users/satanworker/Projects/rn/android/app/build/intermediates/pre-dexed/debug/infer-annotations-4.0_5d33e8ea732191ef36e08bc5ce0e799677033034.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/Users/satanworker/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.9.0/f824591a0016efbaeddb8300bee54832a1398cfa/okio-1.9.0.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
         <dex dex="/Users/satanworker/Projects/rn/android/app/build/intermediates/pre-dexed/debug/okio-1.9.0_f4cc91a8c4989dd223f0da8d738de7b50dcdbb51.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/satanworker/Projects/rn/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="050f688115ea65a0292d8483a6ffe6bcdab1e2ef">
+        <dex dex="/Users/satanworker/Projects/rn/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-base-1.0.1_9c81964fb7ed596caa2feeff13e32bb830f9c5f2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/satanworker/Projects/rn-starter/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="5a61f17cd72e20aa4323cbf5f909b7c609619275">
+        <dex dex="/Users/satanworker/Projects/rn-starter/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-drawee-1.0.1_21ffe11859f965be9542b43694ea13fdcacb0d58.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/satanworker/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="/Users/satanworker/Projects/rn/android/app/build/intermediates/pre-dexed/debug/javax.inject-1_7b65bfc5401e7bce103d5409947d7a8a479fc753.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/satanworker/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.6.0/69edde9fc4b01c9fd51d25b83428837478c27254/okhttp-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
+        <dex dex="/Users/satanworker/Projects/rn-starter/android/app/build/intermediates/pre-dexed/debug/okhttp-3.6.0_6f4c1f50bb35404ddcdf3f4bfbba3dd1ab2b4306.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/satanworker/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.1/support-annotations-23.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="/Users/satanworker/Projects/rn/android/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.1_f4430fa61b0716c78bd1b9e455bbaaa4eee90ba9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/satanworker/Projects/rn-starter/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.46.1/jars/libs/infer-annotations-4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
+        <dex dex="/Users/satanworker/Projects/rn-starter/android/app/build/intermediates/pre-dexed/debug/infer-annotations-4.0_a57e00032ccb64c2e2dbb8b201f0e08a14c890e1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/satanworker/Projects/rn-starter/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="2668e49e4e31c7d451b76a36009b902bf44e0d70">
+        <dex dex="/Users/satanworker/Projects/rn-starter/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fbcore-1.0.1_c55ab6795d70b2ca3a8da5ce8b6fcd86e71c1ca8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/satanworker/Projects/rn/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="/Users/satanworker/Projects/rn/android/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1_6b14dd65c69e47ca14c431e594013a82f70795dd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/satanworker/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.4.1/c7c4f9e35c2fd5900da24f9872e3971801f08ce0/okhttp-3.4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c7c4f9e35c2fd5900da24f9872e3971801f08ce0">
+        <dex dex="/Users/satanworker/Projects/rn/android/app/build/intermediates/pre-dexed/debug/okhttp-3.4.1_8b7dce2a6034189d310c92b881d3701dde44c611.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/satanworker/Projects/rn/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.45.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="0d3e48e200296061415952a358fad487e129adaa">
+        <dex dex="/Users/satanworker/Projects/rn/android/app/build/intermediates/pre-dexed/debug/com.facebook.react-react-native-0.45.1_925a680de29d2dc2f12072dcc28b4a416963431e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/satanworker/Projects/rn-starter/android/app/build/intermediates/exploded-aar/com.facebook.fbui.textlayoutbuilder/textlayoutbuilder/1.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
+        <dex dex="/Users/satanworker/Projects/rn-starter/android/app/build/intermediates/pre-dexed/debug/com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_638443b6db615d46b8c2137a8f637b74235a629b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/satanworker/Projects/rn-starter/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ba9b39366b723ccff6359d1117332968e98a4aca">
+        <dex dex="/Users/satanworker/Projects/rn-starter/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-okhttp3-1.0.1_c55b2c5033cef1cc06ad34567b46be658ddb7336.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/satanworker/Projects/rn/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="5a61f17cd72e20aa4323cbf5f909b7c609619275">
+        <dex dex="/Users/satanworker/Projects/rn/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-drawee-1.0.1_42b99338b3d5f42ef7dad7f9c406842645ba00ee.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/satanworker/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.4.1/63994437f62bc861bc20c605d12962f7246116d1/okhttp-urlconnection-3.4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="63994437f62bc861bc20c605d12962f7246116d1">
+        <dex dex="/Users/satanworker/Projects/rn/android/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.4.1_8ed6106561cbb085d9db04620b50577bd55acd46.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/satanworker/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/Users/satanworker/Projects/rn/android/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_823a39576af9b6097f11ccee9d6db3ad20bb59a2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/satanworker/Projects/rn-starter/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="cf836a435a496eb22ff2aa69aa1e619462549f81">
+        <dex dex="/Users/satanworker/Projects/rn-starter/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fresco-1.0.1_7f174d829e542c543e702b0127bbd52611e120d3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/satanworker/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="/Users/satanworker/Projects/rn/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0_aa183b351c1b40ba27ecab03b29d163da02dec57.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/satanworker/Projects/rn/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.45.1/jars/libs/infer-annotations-4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
+        <dex dex="/Users/satanworker/Projects/rn/android/app/build/intermediates/pre-dexed/debug/infer-annotations-4.0_5d33e8ea732191ef36e08bc5ce0e799677033034.jar" />
     </item>
     <item
         is-multidex="false"
