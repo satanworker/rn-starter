@@ -61,12 +61,22 @@
 import { AppRegistry } from 'react-native';
 import { StackNavigator } from 'react-navigation';
 import HomeScreen from './src/components/home';
-import LoginScreen from './src/components/login';
+import LoginScreen from './src/containers/login';
 
 
 const rn = StackNavigator({
-  Home: { screen: HomeScreen },
   Login: { screen: LoginScreen },
+  Home: { screen: HomeScreen },
+}, {
+  // tabBarOptions: {
+  //   labelStyle: {
+  //     fontSize: 12,
+  //   },
+  //   getLabel: true,
+  //   style: {
+  //     backgroundColor: Colors.BLUE,
+  //   },
+  // },
 });
 
 AppRegistry.registerComponent('rn', () => rn);
