@@ -1,6 +1,6 @@
 // @flow
 import React, { Component } from 'react';
-import { Text } from 'react-native';
+import { Text, Button, View } from 'react-native';
 import { NavigationActions } from 'react-navigation';
 
 type Props = {
@@ -25,12 +25,9 @@ export default class LoginScreen extends Component<DefaultProps, Props, State> {
   static defaultProps = {
     loggedIn: false,
   };
-  // constructor(props: Props) {
-  //   super(props);
-  // }
   state: State = {};
   componentWillMount() {
-    this.navigate();
+    //  this.navigate();
   }
   checkUser(): boolean {
     if (this.state.loggedIn) {
@@ -47,11 +44,18 @@ export default class LoginScreen extends Component<DefaultProps, Props, State> {
         ],
       });
       this.props.navigation.dispatch(resetAction);
+      // this.props.navigation.navigate('Home');
     }
   }
   render() {
     return (
-      <Text>Authorization goes here</Text>
+      <View>
+        <Text>Authorization goes here</Text>
+        <Button
+          onPress={() => this.navigate()}
+          title={'huianne'}
+        />
+      </View>
     );
   }
 }

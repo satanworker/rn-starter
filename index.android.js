@@ -58,25 +58,44 @@
 //     );
 //   }
 // }
-import { AppRegistry } from 'react-native';
-import { StackNavigator } from 'react-navigation';
-import HomeScreen from './src/components/home';
-import LoginScreen from './src/containers/login';
 
+
+// tabBarOptions: {
+//   labelStyle: {
+//     fontSize: 12,
+//   },
+//   getLabel: true,
+//   style: {
+//     backgroundColor: Colors.BLUE,
+//   },
+// },
+import { AppRegistry } from 'react-native';
+import { StackNavigator, TabNavigator } from 'react-navigation';
+import LoginScreen from './src/containers/login';
+import CalendarScreen from './src/containers/calendar';
+import RecentScreen from './src/containers/recent';
+
+const HomeNavigator = TabNavigator({
+  Calendar: {
+    screen: CalendarScreen,
+  },
+  Recent: { screen: RecentScreen },
+},
+{
+  navigationOptions: {
+    header: null,
+  },
+},
+);
 
 const rn = StackNavigator({
   Login: { screen: LoginScreen },
-  Home: { screen: HomeScreen },
-}, {
-  // tabBarOptions: {
-  //   labelStyle: {
-  //     fontSize: 12,
-  //   },
-  //   getLabel: true,
-  //   style: {
-  //     backgroundColor: Colors.BLUE,
-  //   },
-  // },
+  Home: {
+    screen: HomeNavigator,
+    header: {
+      visible: false,
+    },
+  },
 });
 
 AppRegistry.registerComponent('rn', () => rn);
