@@ -22,6 +22,6 @@ module.exports = {
     // https://github.com/airbnb/javascript/issues/982
     "react/jsx-filename-extension": ["error", {
       "extensions": [".js", ".jsx"]
-    }]
+    }],
   }
 };

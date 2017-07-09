@@ -4,48 +4,20 @@
  * @flow
  */
 
-import React, { Component } from 'react';
-import {
-  AppRegistry,
-  StyleSheet,
-  Text,
-  View,
-} from 'react-native';
+import { AppRegistry } from 'react-native';
+import React from 'react';
+import { createStore } from 'redux';
+import { Provider } from 'react-redux';
+import appReducer from './src/reducers';
+import AppWithNavigationState from './src/components/app';
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-  },
-  welcome: {
-    fontSize: 20,
-    textAlign: 'center',
-    margin: 10,
-  },
-  instructions: {
-    textAlign: 'center',
-    marginBottom: 5,
-  },
-});
-export default class rn extends Component {
-  render() {
-    const a: number = 13;
-    return (
-      <View style={styles.container}>
-        <Text style={styles.welcome}>
-          {a + 12}
-        </Text>
-        <Text style={styles.instructions}>
-          To get started, edit index.ios.js
-        </Text>
-        <Text style={styles.instructions}>
-          Press Cmd+R to reload,{'\n'}
-          Cmd+D or shake for dev menu
-        </Text>
-      </View>
-    );
-  }
-}
+const store = createStore(appReducer);
 
-AppRegistry.registerComponent('rn', () => rn);
+const Root = () => (
+  <Provider store={store}>
+    <AppWithNavigationState />
+  </Provider>
+);
+
+
+AppRegistry.registerComponent('rn', () => Root);
