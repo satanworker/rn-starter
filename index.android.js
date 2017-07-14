@@ -6,13 +6,11 @@
 
 import { AppRegistry } from 'react-native';
 import React from 'react';
-import { createStore } from 'redux';
 import { Provider } from 'react-redux';
-import appReducer from './src/reducers';
 import AppWithNavigationState from './src/components/app';
+import configureStore from './src/store/configureStore';
 
-const store = createStore(appReducer);
-
+const store = configureStore();
 const Root = () => (
   <Provider store={store}>
     <AppWithNavigationState />

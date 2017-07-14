@@ -1,6 +1,6 @@
 import { combineReducers } from 'redux';
-import user from './user';
-import nav from './nav';
+import user from './user/user.reducer';
+import nav from './nav/nav.reducer';
 
 export default combineReducers({
   user,

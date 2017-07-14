@@ -1,4 +1,4 @@
-import AppNavigator from '../config/routing';
+import AppNavigator from '../../config/routing';
 
 const initialState = AppNavigator.router.getStateForAction(AppNavigator.router.getActionForPathAndParams('Login'));
 const navReducer = (state = initialState, action) => {

@@ -2,11 +2,15 @@
 import React, { Component } from 'react';
 import { Text, Button, View } from 'react-native';
 import { NavigationActions } from 'react-navigation';
+import { connect } from 'react-redux';
+import httpService from '../services/http.service';
+import login from '../store/user/actions/login';
 
 type Props = {
   loggedIn: boolean;
   jwt?: string;
   navigation: any;
+  login: Function;
 };
 
 type DefaultProps = {
@@ -18,7 +22,7 @@ type State = {
   jwt?: string;
 };
 
-export default class LoginScreen extends Component<DefaultProps, Props, State> {
+class LoginScreen extends Component<DefaultProps, Props, State> {
   static navigationOptions = {
     title: 'Login',
   };
@@ -26,9 +30,10 @@ export default class LoginScreen extends Component<DefaultProps, Props, State> {
     loggedIn: false,
   };
   state: State = {};
-  componentWillMount() {
-    //  this.navigate();
+  componentDidMount() {
+    console.log('mount');
   }
+
   checkUser(): boolean {
     if (this.state.loggedIn) {
       return true;
@@ -47,12 +52,15 @@ export default class LoginScreen extends Component<DefaultProps, Props, State> {
       // this.props.navigation.navigate('Home');
     }
   }
+  login() {
+    this.props.login('satanworker', 'bugaga');
+  }
   render() {
     return (
       <View>
         <Text>Authorization goes here</Text>
         <Button
-          onPress={() => this.navigate()}
+          onPress={() => this.login()}
           title={'huianne'}
         />
       </View>
@@ -60,3 +68,17 @@ export default class LoginScreen extends Component<DefaultProps, Props, State> {
   }
 }
 
+
+const mapStateToProps = state => (
+  {
+    user: state.user,
+  }
+);
+
+const mapDispatchToProps = dispatch => (
+  {
+    login: (email, password) => dispatch(login(email, password)),
+  }
+);
+
+export default connect(mapStateToProps, mapDispatchToProps)(LoginScreen);
